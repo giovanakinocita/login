@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: black;
+}
+
+form {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    background-color: darkgreen;
+    position: absolute;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin-left: 430px;
+    margin-top: 160px;
+}
+
+.name, .password {
+    padding: 10px;
+    margin-left: 28px;
+    padding-top: 5px;
+}
+
+button {
+    width: 150px;
+    height: 35px;
+    margin-left: 150px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-top: 9px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border: none;
+}
+
+button:hover{
+    background-color:black;
+    color:white;
+    border: none;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+input{
+    height: 22px;
+    width: 350px;
+    background-color: darkgreen;
+    border: none;
+    border-bottom: 1px solid;
+    border-color: white;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#image{
+    width: 70px;
+    height: 70px;
+    margin-left: 195px;
+    padding-bottom: 0px;
+}
+
+#pass{
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    width: 184px;
+    margin-left: 125px;
+}
+
+#pass:hover{
+    color: black;
+}
