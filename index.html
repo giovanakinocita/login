@@ -24,18 +24,18 @@
             <img src="user.png" id="image">
 
         <div class="name">
-            <label>Name</label><br>
-            <input required type="text">
-            <span class="error"></span>
+            <label>E-mail</label><br>
+            <input required type="text" id="email">
         </div>
 
         <div class="password">
             <label>Password</label><br>
-            <input required type="password">
+            <input required type="password" id="password">
         </div>
         </div>
 
-        <button type="submit"><strong>Enter</strong></button>
+        <div id="enter"><button type="submit" onclick="login()"><strong>Enter</strong></button></div>
+        <div id="reg"><button type="submit"><strong>Register</strong></button></div>
 
         <a href="" id="pass">Forgot your password?</a>
 
